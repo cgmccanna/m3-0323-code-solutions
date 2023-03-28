@@ -7,9 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <CustomButton text="I" color="blue"></CustomButton>
-          <CustomButton text="Know" color="red"></CustomButton>
-          <CustomButton text="React!" color="green"></CustomButton>
+          <CustomButton text="I" color="blue" />
+          <CustomButton text="Know" color="red" />
+          <CustomButton text="React!" color="green" />
         </div>
       </header>
     </div>
