@@ -1,0 +1,40 @@
+.default {
+  font-family: sans-serif;
+  border: black solid 2px;
+  padding: 8px 10px;
+  box-shadow: 5px 5px black;
+}
+
+.default:hover {
+  cursor: pointer;
+}
+
+.darkpurple {
+  color: white;
+  background-color: rgb(54 26 80);
+}
+
+.lightpurple {
+  background-color: rgb(147 107 165);
+  color: white;
+}
+
+.coral {
+  background-color: rgb(223 114 114);
+  color: white;
+}
+
+.lightorange {
+  background-color: rgb(235 148 77);
+  color: black;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
