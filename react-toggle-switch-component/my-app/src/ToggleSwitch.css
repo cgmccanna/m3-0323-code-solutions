@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.switch {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  border: black solid 3px;
+  border-radius: 30px;
+}
+
+.off {
+  transform: translate(-30px);
+  transition: transform 0.1s;
+}
+
+.slider {
+  position: absolute;
+  right: 0;
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background-color: white;
+  transition: transform 0.1s;
+}
+
+.slider:hover {
+  cursor: pointer;
+}
+
+p {
+  width: 50px;
+  justify-content: center;
+  padding: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.green {
+  background-color: rgb(63 119 63);
+}
