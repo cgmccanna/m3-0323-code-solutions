@@ -1,5 +1,6 @@
 import './App.css';
-import Accordion from './Accordion';
+import Topic from './Accordion';
+import { useState } from 'react';
 
 const topics = [
   {
@@ -29,11 +30,20 @@ const topics = [
 ]
 
 function App() {
+  const [activeIndex, setActiveIndex] = useState(null);
+
   return (
     <div className="App">
       <header className="App-header">
         <div>
-          <Accordion topics={topics}/>
+          {topics.map(({ title, content, id }) => (
+          <Topic
+          title={title}
+          content={content}
+          isActive={activeIndex === id}
+          onShow={() => activeIndex !== id ? setActiveIndex(id) : setActiveIndex(null)}
+          key={id}
+          />))}
         </div>
       </header>
     </div>
