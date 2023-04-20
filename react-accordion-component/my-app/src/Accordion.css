@@ -1,0 +1,23 @@
+.container {
+  width: 550px;
+}
+
+.content {
+  text-align: justify;
+  border: 2px solid white;
+}
+
+p {
+  padding: 0 15px;
+}
+
+.title {
+  text-align: left;
+  border: 2px solid white;
+  background-color: rgb(76 84 107);
+  padding-left: 15px;
+}
+
+h3:hover {
+  cursor: pointer;
+}
